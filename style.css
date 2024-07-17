@@ -1,0 +1,54 @@
+.caixa{
+    padding: 20px;
+    border: 2px solid;
+    background-color: aliceblue;
+    gap: 5px;
+    border-radius: 15px;
+}
+
+body{
+    background-color: rgb(219, 182, 219);
+}
+
+.textos{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    gap: 10px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.tudo{
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+}
+
+#btSim{
+    border: none;
+    background-color: aliceblue;
+}
+
+#btSim:hover{
+    background-color: green;
+    color: black;
+    transition: 630ms;
+    border-radius: 15px;
+}
+
+#btNao{
+    border: none;
+    background-color: aliceblue;
+}
+
+#btNao:hover{
+    background-color: red;
+    color: black;
+    transition: 1ms;
+    border-radius: 15px;
+}
